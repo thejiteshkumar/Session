@@ -7,7 +7,7 @@
         VerticalOptions="Center">
 
         <Label x:Name="TimeLabel"
-               Text="00:00"
+               Text="00:00:00"
                FontSize="70"
                TextColor="White"
                HorizontalTextAlignment="Center">
@@ -22,13 +22,21 @@
             <Button x:Name="PauseButton" 
                 Text="Pause"
                 FontSize="Large"
-                IsVisible="False"/>
+                IsVisible="False"
+                Clicked="PauseButton_Clicked"/>
 
-            <Button x:Name="ActionButton" 
+            <Button x:Name="StartButton" 
                     Text="Start"
                     FontSize="Large" 
-                    Clicked="ActionButton_Clicked"/>
-            
+                    Clicked="StartButton_Clicked"/>
+
+            <Button x:Name="StopButton" 
+                 Text="Reset"
+                 FontSize="Large" 
+                 IsVisible="False"
+                 Clicked="StopButton_Clicked"/>
+
+
 
         </StackLayout>
         
