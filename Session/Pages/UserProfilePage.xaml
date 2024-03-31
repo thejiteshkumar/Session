@@ -8,7 +8,7 @@
         <Label 
             FontSize="Medium"
             Margin="100"
-            Text="Comming Soon"
+            Text="Coming Soon"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
